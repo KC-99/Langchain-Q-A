@@ -26,13 +26,4 @@ This Streamlit app enables users to analyze news articles and ask questions abou
 
 - **OpenAI**: Utilized for the Language Model for question-answering.
 - **Streamlit**: Used to create the user interface for the app.
-- **FAISS**: Employed for efficient document vectorization.
-
-
-### License:
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize the README as needed for your GitHub repository!
+- **FAISS**: Employed for efficient document vectorization
