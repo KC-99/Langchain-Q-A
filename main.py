@@ -40,6 +40,7 @@ if read_button:
     )
 
     chunks = text_splitter.split_documents(data)
+    # used openAI embeddings to convert textual data to vectors and stored them as a vector database using FAISS index
     embeddings = OpenAIEmbeddings()
     vdb = FAISS.from_documents(chunks, embeddings)
     # print(vdb)
