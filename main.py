@@ -7,7 +7,7 @@ from langchain_community.embeddings import OpenAIEmbeddings
 import streamlit as st
 from langchain_openai import OpenAI
 
-key = "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"
+key = "your key"
 os.environ["OPENAI_API_KEY"] = key
 
 llm = OpenAI(temperature=0.9, max_tokens=500)
