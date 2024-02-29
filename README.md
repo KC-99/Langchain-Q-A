@@ -18,7 +18,7 @@ This Streamlit app enables users to analyze news articles and ask questions abou
 
 1. **Install Dependencies**: Ensure that the required libraries and modules are installed. Use `pip install -r requirements.txt` to install them.
 2. **Set Up OpenAI API Key**: Set the API key for the OpenAI service in the environment variable `OPENAI_API_KEY`.
-3. **Run the App**: Execute the script `app.py` and access the app through the provided URL.
+3. **Run the App**: Execute the script `main.py` and access the app through the provided URL.
 4. **Input URLs**: Input the URLs of news articles in the sidebar of the app.
 5. **Generate Answers**: Click the "Read" button to extract text from the provided URLs. Enter questions in the text input field to generate answers.
 
